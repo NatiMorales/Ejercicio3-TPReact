@@ -6,7 +6,7 @@ function App() {
   
   return (
     <section>
-      <TituloPrincipal></TituloPrincipal>
+      <TituloPrincipal texto = "my friend"></TituloPrincipal>
     </section>
   )
 }

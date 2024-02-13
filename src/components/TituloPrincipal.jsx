@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 
-const TituloPrincipal = () => {
+const TituloPrincipal = (props) => {
     return (
     <Container fluid>
-      <h1>Hello World!</h1>
+      <h1>Hello {props.texto}!</h1>
     </Container>
     );
 };
